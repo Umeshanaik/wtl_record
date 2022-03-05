@@ -23,12 +23,7 @@ border-left-style: solid;
 border-bottom-style: solid;
   	border-color: #52527a;
 }
-marquee 
-{
-	background-color: #58FA82;
-  	opacity: 0.6;
- 	color: black;
-}
+
 textarea
 {
 background-color: lightgrey;
@@ -41,7 +36,7 @@ outline-style: double;
   	outline-color: green;
   	outline-width: thick;
   	outline: thick ridge grey;
-  	background-color: #000000;
+  	background-color: #a4cebe;
 } 
 h6
 {
