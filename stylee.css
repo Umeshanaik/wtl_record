@@ -1,0 +1,49 @@
+h1
+ {
+background-color:  #52527a;
+	color: lightblue;
+	letter-spacing: 5px;
+	text-shadow: 2px 2px black;
+	opacity: 0.8;
+}	
+div 
+{
+background-color: lightblue;
+}
+P
+ {
+background-color: yellow;
+}
+label 
+{
+background-color: lightgrey;
+border-style: outset;
+border-right-style: solid;
+border-left-style: solid;
+border-bottom-style: solid;
+  	border-color: #52527a;
+}
+marquee 
+{
+	background-color: #58FA82;
+  	opacity: 0.6;
+ 	color: black;
+}
+textarea
+{
+background-color: lightgrey;
+}
+body
+{
+outline-style: double;
+ 	border: 1px solid black;
+  	outline-style: solid;
+  	outline-color: green;
+  	outline-width: thick;
+  	outline: thick ridge grey;
+  	background-color: #000000;
+} 
+h6
+{
+color: white;
+}
