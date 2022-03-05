@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Document</title>
+<link rel="stylesheet" href="stylett.css">
+<style>
+body {
+   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.sample {
+   font-size: 18px;
+   font-weight: 500;
+}
+</style>
+</head>
+<body>
+<h1>Dialogue boxes</h1>
+<div class="sample"></div>
+<button class="alert">ALERT BOX</button>
+<button class="confirm">CONFIRM BOX</button>
+<button class="prompt">PROMPT BOX</button>
+<h3>
+Click on the above button to see their dialogue box
+</h3>
+<script>
+let fillEle = document.querySelector(".sample");
+document.querySelector('.alert').addEventListener('click',()=>{
+   alert('Hello World');
+});
+document.querySelector('.confirm').addEventListener('click',()=>{
+   confirm('Are you sure?');
+});
+document.querySelector('.prompt').addEventListener('click',()=>{
+   prompt('Enter your name');
+})
+</script>
+</body>
+</html>
